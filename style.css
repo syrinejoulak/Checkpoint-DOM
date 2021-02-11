@@ -179,4 +179,6 @@ transition: .4s;
 .fas {
     color: #c70039;
     transition: .4s;
+    font-size: 2rem;
 }
+
