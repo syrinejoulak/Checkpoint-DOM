@@ -93,8 +93,10 @@ function updateCartTotal() {
 document.getElementsByClassName("cart-total-price")[0].innerText = total + "$"
 }
 
-var heartbtn = document.getElementById("btn");
-function color() {
+
+function color(heartbtn) {
+
+    console.log(event)
     if(heartbtn.classList.contains("far")){
         heartbtn.classList.remove("far");
         heartbtn.classList.add("fas");
